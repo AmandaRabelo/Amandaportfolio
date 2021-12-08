@@ -1,5 +1,22 @@
 [
   {
+    "path": "posts/2021-12-08-analiseraisreal/",
+    "title": "analise_rais_real",
+    "description": "Objetivo: Analisar os salários na base da RAIS.",
+    "author": [
+      {
+        "name": "Amanda Rabelo",
+        "url": "https://example.com/norajones"
+      }
+    ],
+    "date": "2021-12-08",
+    "categories": [],
+    "contents": "\r\nNesse relatório estamos interessados em responder:\r\n“Quanto ganha um cientista de dados?”\r\nPara isso vamos utilizar uma base da RAIS anonimizada.\r\nVamos utilizar o [datalake da iniciativa base de dados] (https://basedosdados.org/).\r\nCarregando as cinco primeiras linhas da tabela microdados.\r\n\r\n\r\n\r\n#Acessando os dados da RAIS\r\n\r\n\r\n\r\nLearn more about using Distill at https://rstudio.github.io/distill.\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2021-12-08T17:44:30-03:00",
+    "input_file": "analiseraisreal.knit.md"
+  },
+  {
     "path": "posts/welcome/",
     "title": "Welcome to Portfolio Amanda",
     "description": "Welcome to our new blog, Portfolio Amanda. We hope you enjoy \nreading what we have to say!",
