@@ -5,15 +5,15 @@
     "description": "Welcome to our new blog, Portfolio Amanda. We hope you enjoy \nreading what we have to say!",
     "author": [
       {
-        "name": "Nora Jones",
+        "name": "Amanda Rabelo",
         "url": "https://example.com/norajones"
       }
     ],
     "date": "2021-12-07",
     "categories": [],
-    "contents": "\r\n\r\n\r\n\r\n",
-    "preview": {},
-    "last_modified": "2021-12-07T16:34:59-03:00",
-    "input_file": {}
+    "contents": "\r\nSobre mim\r\nSou Amanda graduada em Engenharia de Controle e Automação (CEFET/MG - 2012), mestre em Engenharia Biomédica (UFU - 2014) e doutoranda em Engenharia Elétrica (UFU - 2022).\r\nMeu trabalho envolve:\r\nProcessamento digital de sinais\r\nAnálise de dados\r\nDesenvolvimento de protocolos experimentais\r\nColeta de dados biomédicos\r\nPublicações por ano\r\n\r\n\r\n\r\n\r\n\r\n\r\nFigure 1: Publicacoes por ano\r\n\r\n\r\n\r\nContato:\r\nemail: amandagomesrabelo@gmail.com\r\nLinkedIN: www.linkedin.com/in/amandagrabelo\r\n\r\n\r\n\r\n",
+    "preview": "posts/welcome/welcome_files/figure-html5/unnamed-chunk-2-1.png",
+    "last_modified": "2021-12-08T15:39:50-03:00",
+    "input_file": "welcome.knit.md"
   }
 ]

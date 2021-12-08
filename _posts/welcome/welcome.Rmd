@@ -4,9 +4,9 @@ description: |
   Welcome to our new blog, Portfolio Amanda. We hope you enjoy 
   reading what we have to say!
 author:
-  - name: Nora Jones 
+  - name: Amanda Rabelo 
     url: https://example.com/norajones
-    affiliation: Spacely Sprockets
+    affiliation: Hospital Albert Einstein 
     affiliation_url: https://example.com/spacelysprokets
 date: 12-07-2021
 output:
@@ -14,13 +14,47 @@ output:
     self_contained: false
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
 
-# Learn more about creating blogs with Distill at:
-# https://rstudio.github.io/distill/blog.html
 
+***Sobre mim***
+
+Sou Amanda graduada em Engenharia de Controle e Automação (CEFET/MG - 2012), mestre em Engenharia Biomédica (UFU - 2014) e doutoranda em Engenharia Elétrica (UFU - 2022).
+
+Meu trabalho envolve:
+
+-   Processamento digital de sinais
+
+-   Análise de dados
+
+-   Desenvolvimento de protocolos experimentais
+
+-   Coleta de dados biomédicos
+
+
+**Publicações por ano**
+
+```{r, echo=FALSE, out.width=50}
+
+# Criando o conjunto de dados de publicaçao 
+
+publ <- data.frame(Ano = c("2015","2016", "2017","2018", 
+                           "2019","2020","2021"),
+                   Publicacoes = c(2,4,5,2,3,6,3))
+#knitr::kable(publ)
 ```
 
+```{r, echo=FALSE,fig.align='center', dpi=300, fig.cap="Publicacoes por ano"}
 
+# Criando o conjunto de dados de publicaçao 
 
+library(ggplot2)
+
+  ggplot(publ) +
+    geom_point(mapping = aes(x = Ano, y = Publicacoes)) +
+    theme_bw()
+```
+*Contato*:
+
+email: amandagomesrabelo\@gmail.com
+
+LinkedIN: [www.linkedin.com/in/amandagrabelo](www.linkedin.com/in/amandagrabelo)
